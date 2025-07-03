@@ -1,0 +1,719 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.33f1 (433b0a79340b) revision 4406026'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Enterprise' Language: 'en' Physical Memory: 16069 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/MIDI/Fin_del_Mundo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57187
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/MIDI/Fin_del_Mundo
+C:/MIDI/Fin_del_Mundo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19776]  Target information:
+
+Player connection [19776]  * "[IP] 192.168.0.145 [Port] 0 [Flags] 2 [Guid] 2710541112 [EditorId] 2710541112 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JNDRSON8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19776] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19776] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 17.73 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.33f1 (433b0a79340b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/MIDI/Fin_del_Mundo/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a8)
+    Vendor:   Intel
+    VRAM:     8034 MB
+    Driver:   31.0.101.4255
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004324 seconds.
+- Loaded All Assemblies, in  0.467 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 251 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.710 seconds
+Domain Reload Profiling: 1176ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (165ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (165ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (710ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (678ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (395ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (154ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.822 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 7.00 ms, found 11 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 8.54 ms, found 11 plugins.
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.333 seconds
+Domain Reload Profiling: 2151ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (569ms)
+		LoadAssemblies (381ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (287ms)
+			TypeCache.Refresh (200ms)
+				TypeCache.ScanAssembly (182ms)
+			BuildScriptInfoCaches (67ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1333ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1151ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (162ms)
+			ProcessInitializeOnLoadAttributes (695ms)
+			ProcessInitializeOnLoadMethodAttributes (266ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 17.24 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 291 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7801 unused Assets / (8.1 MB). Loaded Objects now: 8576.
+Memory consumption went from 205.3 MB to 197.2 MB.
+Total: 26.482500 ms (FindLiveObjects: 2.246500 ms CreateObjectMapping: 2.101100 ms MarkObjects: 13.516300 ms  DeleteObjects: 8.616600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 332539.268531 seconds.
+  path: Assets/Models/Hospital Halls/textures/Сouch_BaseColor.jpg
+  artifactKey: Guid(991575b0100dce14ab5f60107364e1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Hospital Halls/textures/Сouch_BaseColor.jpg using Guid(991575b0100dce14ab5f60107364e1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5227b2d7b263d5bcb9edb3a91d05482b') in 0.1856261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Hospital Halls/textures/Сouch_Normal.jpg
+  artifactKey: Guid(1299c0560558d334f9cd74d573a8bca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Hospital Halls/textures/Сouch_Normal.jpg using Guid(1299c0560558d334f9cd74d573a8bca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1a1a2d2f9b8af7ed2aca921e9f44729') in 0.1071755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 728.872530 seconds.
+  path: Assets/Samples/Meta XR Interaction ​SDK
+  artifactKey: Guid(26189ee1b8a5503449b6179560c45526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meta XR Interaction ​SDK using Guid(26189ee1b8a5503449b6179560c45526) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb5c58521eda7d7ce4a8bf89f00038d9') in 0.0029036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.549000 seconds.
+  path: Assets/Samples/Meta XR Interaction ​SDK/77.0.0
+  artifactKey: Guid(59b3d313a8461004d8f50c6105992fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meta XR Interaction ​SDK/77.0.0 using Guid(59b3d313a8461004d8f50c6105992fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aaaa406eab1d68585dcbb1144d5412d0') in 0.0010936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.302591 seconds.
+  path: Assets/Samples/Meta XR Interaction ​SDK/77.0.0/Example Scenes/LocomotionExamples.unity
+  artifactKey: Guid(d37ed7e92220d1045a36bc73c7c4cf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meta XR Interaction ​SDK/77.0.0/Example Scenes/LocomotionExamples.unity using Guid(d37ed7e92220d1045a36bc73c7c4cf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09d3064fb51eab0b90237a0d8fcb286c') in 0.0009702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.538252 seconds.
+  path: Assets/Scenes/LocomotionExamples.unity
+  artifactKey: Guid(e6eef2c4bdc6a424283e313d4b01e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LocomotionExamples.unity using Guid(e6eef2c4bdc6a424283e313d4b01e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af11a9b2b8b0735a45d6470a070b460f') in 0.0008384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.343264 seconds.
+  path: Assets/Scenes/cave.unity
+  artifactKey: Guid(e6eef2c4bdc6a424283e313d4b01e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/cave.unity using Guid(e6eef2c4bdc6a424283e313d4b01e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ee498235dda56b4a76ee2c685e69c57') in 0.0008929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.979457 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet
+  artifactKey: Guid(a705560e7a465074ca434ea27ee2f126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet using Guid(a705560e7a465074ca434ea27ee2f126) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd9c0aaa37b386e6aca7d3be88cbf399') in 0.0009295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035879 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/SampleSceneProfile 1.asset
+  artifactKey: Guid(96460b99045deae44b7fe800345942df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/SampleSceneProfile 1.asset using Guid(96460b99045deae44b7fe800345942df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abd2cee18a946b3c10be30d1caa87543') in 0.0023547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.258040 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/fbx
+  artifactKey: Guid(eb491f09561cda443b0043687b5bcfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/fbx using Guid(eb491f09561cda443b0043687b5bcfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b948761820159a12e1e01434c66439c4') in 0.0010184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020093 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/fbx/MinesSet.fbx
+  artifactKey: Guid(a5245c24a77253e44ae71aac7d41138c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/fbx/MinesSet.fbx using Guid(a5245c24a77253e44ae71aac7d41138c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61b953a724e427fe95f8bb831c24bf76') in 7.1661728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 903
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.146364 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/BlendFile
+  artifactKey: Guid(0d83daf1f65422f4f956caa31fe37669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/BlendFile using Guid(0d83daf1f65422f4f956caa31fe37669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7094673f2ffa0cc3e7fca34adf88183a') in 0.0034002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.717808 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs
+  artifactKey: Guid(009abc7be588c454cb9ebcccf42c9898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs using Guid(009abc7be588c454cb9ebcccf42c9898) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b28218f597e7e11784dabc7a7c458417') in 0.0009967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.596627 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground
+  artifactKey: Guid(7d3b0a0b4499c8640bfb814073e892c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground using Guid(7d3b0a0b4499c8640bfb814073e892c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1c0c20d8c8e3a703df25b022c4d2182') in 0.0008695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029914 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Cave_Platform_A.prefab
+  artifactKey: Guid(039915dd5e283ad4985bffcfd580ad3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Cave_Platform_A.prefab using Guid(039915dd5e283ad4985bffcfd580ad3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffb7709d3b7eb97f2e164ee7afe44247') in 0.1260505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Cave_Platform_I.prefab
+  artifactKey: Guid(64a62c49e9985ef4e8c2e98a81ecc0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Cave_Platform_I.prefab using Guid(64a62c49e9985ef4e8c2e98a81ecc0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ee89e75a6024a9141a3d6ee0cd84a9a') in 0.1243889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Cave_D.prefab
+  artifactKey: Guid(3de5148129bc85948acb24622e1c5ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Cave_D.prefab using Guid(3de5148129bc85948acb24622e1c5ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc1c7ac4e73e90219150d175097740d9') in 0.08699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ramp_Wall_2m.prefab
+  artifactKey: Guid(90e63614091111040b00ec12e3e14972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ramp_Wall_2m.prefab using Guid(90e63614091111040b00ec12e3e14972) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef913e1c7ca3f8011ce7833bb1a0bd41') in 0.0793632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mound_E.prefab
+  artifactKey: Guid(846e8f462b4cdd945ae783deb0aeba6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mound_E.prefab using Guid(846e8f462b4cdd945ae783deb0aeba6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c3df9f93e2259b7f18c82b095fe0dd3') in 0.0789543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mines_Ramp_Side_B.prefab
+  artifactKey: Guid(63b2a9fdc3b687949bbea86889abd563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mines_Ramp_Side_B.prefab using Guid(63b2a9fdc3b687949bbea86889abd563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '766e627087684242f8ddba734fc551dd') in 0.13814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mines_B.prefab
+  artifactKey: Guid(32f6f1782b1822241be59de7c5df29dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mines_B.prefab using Guid(32f6f1782b1822241be59de7c5df29dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa0fce915dbbf98cea46bc2958b981f7') in 0.084522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mound_B.prefab
+  artifactKey: Guid(49af97c8f9ce2cd4583c1ed98d2a312d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mound_B.prefab using Guid(49af97c8f9ce2cd4583c1ed98d2a312d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eafba9f06570931a5fb4ea7158a6f3e3') in 0.088859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Cave_C.prefab
+  artifactKey: Guid(2caf1e27dea9af347a4438795f887095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Cave_C.prefab using Guid(2caf1e27dea9af347a4438795f887095) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56c6a9e6cd0ec89b2558fd8bc76f3cb4') in 0.0951904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mines_A.prefab
+  artifactKey: Guid(5a681486c498eaf48bd25594270c0bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mines_A.prefab using Guid(5a681486c498eaf48bd25594270c0bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '561b7235e019f3a8fd66da546093f393') in 0.0830664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mines_D.prefab
+  artifactKey: Guid(109845b2f9372fa4595fcfb23069f441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mines_D.prefab using Guid(109845b2f9372fa4595fcfb23069f441) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efeb7fd4b2869aa37f67a6c532dfc00b') in 0.0931796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Cave_A.prefab
+  artifactKey: Guid(732f901be6361bd45989cb8196f683d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Cave_A.prefab using Guid(732f901be6361bd45989cb8196f683d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3e1d913dbad74d4ae06339b81851c57') in 0.1247158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mines_C.prefab
+  artifactKey: Guid(48194ce1a2c35a84b8b35241c94b9d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mines_C.prefab using Guid(48194ce1a2c35a84b8b35241c94b9d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e861b2cc1c418cba8814571f38df4774') in 0.1037648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Cave_Platform_G.prefab
+  artifactKey: Guid(3f8488605b0b59f4f9183cffeea04d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Cave_Platform_G.prefab using Guid(3f8488605b0b59f4f9183cffeea04d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd9189674f5d373b4cd3b919e16ede8a') in 0.1518096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Cave_Platform_C_Corner.prefab
+  artifactKey: Guid(c8e48c3b07025ec4a84be296c408bdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Cave_Platform_C_Corner.prefab using Guid(c8e48c3b07025ec4a84be296c408bdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4e63d129eb2787ea017c67bfa1cbf10') in 0.1525446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Cave_B.prefab
+  artifactKey: Guid(dd67638cac61f0241b71c5e56e9738c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Cave_B.prefab using Guid(dd67638cac61f0241b71c5e56e9738c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e01be873fad4eae168ede092f8d13cd') in 0.0962549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall
+  artifactKey: Guid(ccbd822b4a2bfe7499882440e7065c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall using Guid(ccbd822b4a2bfe7499882440e7065c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bafe03eebc9ea27ad9982f62c4f64732') in 0.0010156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mines_Ramp_A.prefab
+  artifactKey: Guid(0dc5364473d09b94db8c8ce352e27a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mines_Ramp_A.prefab using Guid(0dc5364473d09b94db8c8ce352e27a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bfdc0397e1e33e366a314e1643f9c3d') in 0.0778852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Cave_Wall_Rocks_A.prefab
+  artifactKey: Guid(0888c9f151be5b9499b22b2bcdd7d20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Cave_Wall_Rocks_A.prefab using Guid(0888c9f151be5b9499b22b2bcdd7d20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc3d53a2e93ce43675b263fc7b854f6e') in 0.095293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Tunnel_B.prefab
+  artifactKey: Guid(2f4515f82c4e94c438a78514cde6d1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Tunnel_B.prefab using Guid(2f4515f82c4e94c438a78514cde6d1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ce5a0b9f28a15ea0297a0f82f6f9f22') in 0.0738736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Cave_Wall_Rocks_C.prefab
+  artifactKey: Guid(8d64286d342198a478f5558d2d6380fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Cave_Wall_Rocks_C.prefab using Guid(8d64286d342198a478f5558d2d6380fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9a2ce61b87eafabe828c81aa5867a1c') in 0.0889587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Cave_Wall_Rocks_G.prefab
+  artifactKey: Guid(c49cb18ce49e9ba49be86e64dff4a2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Cave_Wall_Rocks_G.prefab using Guid(c49cb18ce49e9ba49be86e64dff4a2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ae94ec3c416f7ddc5e1728b6e190bc1') in 0.1037959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Wall_Mines_C.prefab
+  artifactKey: Guid(10647404540428544bb547c19fae4003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Wall_Mines_C.prefab using Guid(10647404540428544bb547c19fae4003) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c7566fc7747b73384e099149bf6f013') in 0.0781707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Wall_Caves_C.prefab
+  artifactKey: Guid(93fe0d4835174ea4e85e9848c6b9a4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Wall_Caves_C.prefab using Guid(93fe0d4835174ea4e85e9848c6b9a4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d326a8bca0e978a33c397490f928625') in 0.1083918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Tunnel_A.prefab
+  artifactKey: Guid(c7bdd8225f1ccb540bff61572ee22661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Tunnel_A.prefab using Guid(c7bdd8225f1ccb540bff61572ee22661) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8350b6c4227320025115cf8fe1bdf7ab') in 0.0957558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mound_A.prefab
+  artifactKey: Guid(2b43744eb9336be4983c4e426ed87450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mound_A.prefab using Guid(2b43744eb9336be4983c4e426ed87450) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f06e4446e47d1b36bc46f7a6601084f7') in 0.0942259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Tunnel_Corner_C.prefab
+  artifactKey: Guid(14c08d9125efef74ca664bdc06e92eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Tunnel_Corner_C.prefab using Guid(14c08d9125efef74ca664bdc06e92eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '605f51d535d4f8e8fd7e0512a374ac90') in 0.0984288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Wall_Planes_C.prefab
+  artifactKey: Guid(cb8f21f6a6d1d9a40831e98c7290758c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Wall_Planes_C.prefab using Guid(cb8f21f6a6d1d9a40831e98c7290758c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ebae085b61dbc97cb4cfc101c8a5ab5') in 0.0904858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Cave_Platform_B_Corner.prefab
+  artifactKey: Guid(958214c2e143d8c4d9ba583b43efba97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Cave_Platform_B_Corner.prefab using Guid(958214c2e143d8c4d9ba583b43efba97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef631977f0e51baf41e3f96378dd8ba2') in 0.1429551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Cave_Pillar_A.prefab
+  artifactKey: Guid(3f8365e30f93bff4a992fa3f404237bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Cave_Pillar_A.prefab using Guid(3f8365e30f93bff4a992fa3f404237bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8990ee32ee188b56cbc82b5c6dc729eb') in 0.0836426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Cave_Wall_Rocks_E.prefab
+  artifactKey: Guid(41ca15a15c560254c90d488125372181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Cave_Wall_Rocks_E.prefab using Guid(41ca15a15c560254c90d488125372181) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64315900be41891a365234daadadcd33') in 0.0794661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Cave_Platform_A_Side.prefab
+  artifactKey: Guid(59089861f77384e4bbcfa03ac4a4cac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Cave_Platform_A_Side.prefab using Guid(59089861f77384e4bbcfa03ac4a4cac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd65b6b66c62a8dfd5a7c376f0f23d6df') in 0.1439475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Cave_Rocks_B.prefab
+  artifactKey: Guid(83b4a7c44655fc34f873d3df6f040b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Cave_Rocks_B.prefab using Guid(83b4a7c44655fc34f873d3df6f040b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '798862e476299e71f130e22572094704') in 0.0794433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Wall_Caves_Corner.prefab
+  artifactKey: Guid(0183bfb0b9f7c4e499990fadab0e66b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Wall_Caves_Corner.prefab using Guid(0183bfb0b9f7c4e499990fadab0e66b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94d2ff3616a8b2cc2c500e92ca9b2c4f') in 0.0858724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Tunnel_Corner_B.prefab
+  artifactKey: Guid(744e9159d7ee8a34ea7617aea838815b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Tunnel_Corner_B.prefab using Guid(744e9159d7ee8a34ea7617aea838815b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6d340a32f6be8aa347eef58e61040b2') in 0.0862607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Wall_Planes_A.prefab
+  artifactKey: Guid(a5203939dcb4cfe46b3c07ef1fcf4205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Wall_Planes_A.prefab using Guid(a5203939dcb4cfe46b3c07ef1fcf4205) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a73816bc935b2a60647ce7fe9875a52') in 0.0921517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Wall_Caves_Entrance_A.prefab
+  artifactKey: Guid(471a38e36ddb7a44dabd03b7fbe6dfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Wall_Caves_Entrance_A.prefab using Guid(471a38e36ddb7a44dabd03b7fbe6dfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3edcee6edd60af068350f3eb39d6b092') in 0.0956576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Wall_Mines_Corner.prefab
+  artifactKey: Guid(c10265b770b8b9442aa981069a07bb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Wall_Mines_Corner.prefab using Guid(c10265b770b8b9442aa981069a07bb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae588e3265475732e77b649ede3ec5e2') in 0.0941902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Tunnel_Corner_A.prefab
+  artifactKey: Guid(a05e774315b27ad4dacae3870f08cdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Tunnel_Corner_A.prefab using Guid(a05e774315b27ad4dacae3870f08cdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e134006908c13151a1b0cebffc039726') in 0.1092868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Cave_Wall_Rocks_B.prefab
+  artifactKey: Guid(5834fad2188fd1648b19ec13190a783c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Cave_Wall_Rocks_B.prefab using Guid(5834fad2188fd1648b19ec13190a783c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2139b22e3115ed5248b2d6a346d62ea') in 0.1026604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Wall_Planes_B.prefab
+  artifactKey: Guid(41540c613b5331947899222ac99c54c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Wall_Planes_B.prefab using Guid(41540c613b5331947899222ac99c54c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bda4326920bd673177e74678def14e63') in 0.1025578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Cave_Pillar_C.prefab
+  artifactKey: Guid(2e1be17de5bb85442a5ec6377a730e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Cave_Pillar_C.prefab using Guid(2e1be17de5bb85442a5ec6377a730e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '963f3f32a2d54517725ee5628d29c074') in 0.0874206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Wall_Mines_Entrance_A.prefab
+  artifactKey: Guid(ca1f4399ca5c72d4188c0ca549857524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Wall_Mines_Entrance_A.prefab using Guid(ca1f4399ca5c72d4188c0ca549857524) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41181fa61fb29ec262a42e3d34831afb') in 0.0869237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Cave_E.prefab
+  artifactKey: Guid(e479aa5cee22ae74b96a11c61f704355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Cave_E.prefab using Guid(e479aa5cee22ae74b96a11c61f704355) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '849f169fc2be50022e8d41f3d906d4fb') in 0.1009587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Cave_Wall_Rocks_F.prefab
+  artifactKey: Guid(72af308f26bb3b34cb13bcd56f2b5af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Wall/Cave_Wall_Rocks_F.prefab using Guid(72af308f26bb3b34cb13bcd56f2b5af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33d066440b4701098240bf7b7b9f00dc') in 0.0973336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Cave_Platform_C.prefab
+  artifactKey: Guid(9090dfe2bb858f8458fb9275a1c6e090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Cave_Platform_C.prefab using Guid(9090dfe2bb858f8458fb9275a1c6e090) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a15eccd82f75fef1d161b28fc627a2d3') in 0.1696223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mound_D.prefab
+  artifactKey: Guid(061fcd1852d01aa43a232b19a89b9ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mound_D.prefab using Guid(061fcd1852d01aa43a232b19a89b9ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d48559b3c406946812d2ab2a7fc613a') in 0.0914457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Cave_Platform_E.prefab
+  artifactKey: Guid(f1a8d34a06087b24a9384488d3eb0adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Cave_Platform_E.prefab using Guid(f1a8d34a06087b24a9384488d3eb0adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f8f4dcfedc113f9edbe66978229230b') in 0.1610524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mines_Ramp_B.prefab
+  artifactKey: Guid(9001a06528f57994782e850300a8cac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoafbrrAssets/MInesAndCaveSet/prefabs/Ground/Ground_Mines_Ramp_B.prefab using Guid(9001a06528f57994782e850300a8cac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30a0fc1ad7f59babe7c75dbe6434e1a9') in 0.1570506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
